@@ -24,7 +24,8 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 │   ├── eval.py                 # Evaluates trained LSTM model
 │   ├── eval_no_lstm.py         # Variant for direct regression
 │   ├── train.py                # Trains LSTM using fused ViT + GNSS(t) -> GNSS(t+1)
-│   ├── future_gnss_lstm.py     # Full LSTM pipeline
+│   ├── future_gnss_lstm.py     # GNSS + LSTM  + ViT pipeline
+|   ├── future_gnss_mla.py      # GNSS + LSTM + ViT + MLA pipeline
 │   ├── future_gnss.py          # Feature extractor to generate GNSS prediction data
 │   ├── vit_fusion_show.py      # Visualizations: attention, t-SNE, saliency maps
 ├── README.md
@@ -72,7 +73,7 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 
 ## Pipeline 
 
-1. Extract Features + gnss: ```python vit_mla_gnss/future_gnss.py```
+1. Extract Features + gnss: ```python vit_mla_gnss/future_gnss_mla.py```
 
 2. Train for GNSS Prediction: ```python vit_mla_gnss/train.py```
 
