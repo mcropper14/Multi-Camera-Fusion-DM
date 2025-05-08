@@ -8,11 +8,11 @@ This project implements a multi-modal sensor fusion pipeline to predict the futu
 - GNSS (latitude, longitude, altitude, roll, pitch, azimuth) for spatial grounding
 - A BiLSTM-based regression model for future GNSS trajectory prediction
 
-📍 Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
+Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 
 ---
 
-## 🔧 Project Structure
+##  Project Structure
 
 ```bash
 ├── camera_info/                 # Calibration utilities
@@ -29,7 +29,7 @@ This project implements a multi-modal sensor fusion pipeline to predict the futu
 │   ├── vit_fusion_show.py      # Visualizations: attention, t-SNE, saliency maps
 ├── README.md
 ├── requirements.txt
-
+```
 ##  Method Overview
 
 ###  Vision Transformer (ViT)
@@ -71,9 +71,9 @@ This project implements a multi-modal sensor fusion pipeline to predict the futu
 
 ## Pipeline 
 
-1. Extract Features + gnss: python vit_mla_gnss/future_gnss.py
+1. Extract Features + gnss: ```python vit_mla_gnss/future_gnss.py```
 
-2. Train for GNSS Prediction: python vit_mla_gnss/future_gnss.py
+2. Train for GNSS Prediction: ```python vit_mla_gnss/future_gnss.py```
 
-3. Evaluate Model Accuracy: python vit_mla_gnss/eval.py
+3. Evaluate Model Accuracy: ```python vit_mla_gnss/eval.py```
 
