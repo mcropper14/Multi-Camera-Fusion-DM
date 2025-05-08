@@ -93,28 +93,6 @@ def match_gnss_to_camera(matched_timestamps, gnss_data_dict):
 
     return matched_gnss_data
 
-# Run Matching Process
-
-
-# # Load matched camera timestamps and image paths
-# matched_timestamps, camera_image_paths = load_camera_timestamps()
-
-# # Load GNSS/INS Data
-# gnss_data_dict = load_gnss_ins_data()
-
-# matched_gnss_data = match_gnss_to_camera(matched_timestamps, gnss_data_dict)
-
-# # Combine matched images and GNSS data
-# matched_data = []
-
-# for timestamp in matched_timestamps:
-#     if timestamp in matched_gnss_data:
-#         matched_data.append({
-#             "timestamp": timestamp,
-#             "images": camera_image_paths[timestamp],
-#             "gnss": matched_gnss_data[timestamp]
-#         })
-
 
 def load_matched_data():
 
