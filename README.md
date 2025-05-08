@@ -61,12 +61,13 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 
 
 3. Ensure the Directory is setup as:
+```
 /path/to/cadc/
   └── sequence_01/
       ├── image_05/
       ├── image_06/
       └── gnss.json
-
+```
 4. Run load_data.py for data data synchronization 
 
 ## Pipeline 
