@@ -74,7 +74,7 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 
 1. Extract Features + gnss: ```python vit_mla_gnss/future_gnss.py```
 
-2. Train for GNSS Prediction: ```python vit_mla_gnss/future_gnss.py```
+2. Train for GNSS Prediction: ```python vit_mla_gnss/train.py```
 
 3. Evaluate Model Accuracy: ```python vit_mla_gnss/eval.py```
 
