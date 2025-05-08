@@ -103,7 +103,7 @@ def process_and_save_future_prediction_features(n=100):
 
         # MLA fusion
         fused = fusion_layer(feat5, feat6)  # [1, num_latents, 768]
-        fused = fused.mean(dim=1).squeeze(0)  # Mean over latent tokens -> [768]
+        fused = fused.mean(dim=1).squeeze(0)  # Mean over latent tokens [768]
 
         gnss_vec_now = np.array([
             gnss_now["latitude"],
