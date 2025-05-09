@@ -80,3 +80,12 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 
 3. Evaluate Model Accuracy: ```python vit_mla_gnss/eval.py```
 
+
+##  Example Results
+
+| Model Variant               | MSE  | R² Score |
+|----------------------------|------|----------|
+| ViT only                   | 0.45 | 0.51     |
+| ViT + MLA (no GNSS)        | 0.39 | 0.56     |
+| ViT + MLA + GNSS (LSTM)    | 0.30 | 0.64     |
+
