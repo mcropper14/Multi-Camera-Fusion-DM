@@ -58,8 +58,9 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
    ```bash
    pip install -r requirements.txt
 
-2. Download CADC Dataset [View the CADC dataset](https://github.com/mpitropov/cadc_devkit/tree/master)
+2. [View the CADC dataset](https://github.com/mpitropov/cadc_devkit/tree/master)
 
+3. Download CADC Dataset: ``` python download_cadcd.py ```
 
 3. Ensure the Directory is setup as:
 ```
