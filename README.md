@@ -1,4 +1,6 @@
 
+# Data Mining Final Project - CSCI 436/536
+
 # Adaptive Multi-Camera Sensor Fusion for Autonomous Vehicles
 
 This project implements a multi-modal sensor fusion pipeline to predict the future position and orientation (GNSS pose) of an autonomous vehicle using:
