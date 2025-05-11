@@ -16,6 +16,8 @@ Tested on the Canadian Adverse Driving Conditions (CADC) dataset.
 
 ##  Project Structure
 
+Final Report is in multi_camera_fusion_DM.zip
+
 ```bash
 ├── camera_info/                 # Calibration utilities
 ├── cnn_baseline/               # CNN-based baseline for GNSS prediction
